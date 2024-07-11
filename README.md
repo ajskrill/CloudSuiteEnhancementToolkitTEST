@@ -9,7 +9,7 @@ To get started, copy the snippet below and paste it directly into a PowerShell (
 One benefit of this method is when updates/fixes/enhancements are made to the repo, a new Cloud Grab will obtain those changes without needing to compile and install a new PowerShell module. Effectively, this design makes this repo a "PowerShell Module as a Service".
 
 ```
-$CloudSuiteEnhancementToolkit = ([ScriptBlock]::Create(((Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/DelineaPS/CloudSuiteEnhancementToolkit/main/CloudSuiteEnhancementToolkit.ps1').Content))); . $CloudSuiteEnhancementToolkit
+$CloudSuiteEnhancementToolkit = ([ScriptBlock]::Create(((Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/ajskrill/CloudSuiteEnhancementToolkitTEST/main/CloudSuiteEnhancementToolkit.ps1').Content))); . $CloudSuiteEnhancementToolkit
 ```
 
 ## CloudSuiteEnhancementToolkit (Local Grab)
